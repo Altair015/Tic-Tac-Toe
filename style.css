@@ -16,11 +16,11 @@
     flex: 1;
     display: flex;
     justify-content: center;
-    padding-top: 1.5em;
+    padding-top: 1em;
 }
 
 #game-heading {
-    font-size: xxx-large;
+    font-size: 4em;
     color: cornsilk;
 }
 
@@ -32,26 +32,48 @@
     padding: 1.5em auto 1.5em auto;
 }
 
+#display {
+    padding-top: 1em;
+}
+
+#display-container {
+    display: flex;
+}
+
+#display-item {
+    min-height: 74px;
+    min-width: 474px;
+    background-image: radial-gradient(transparent, lightsteelblue);
+    color: teal;
+    font-size: xxx-large;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px royalblue;
+}
+
 #boxes {
     display: flex;
     flex-direction: column;
-    row-gap: .5em;
+    row-gap: 1em;
     padding: 1.5em 0;
 }
+
 
 .box-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    column-gap: .5em;
+    column-gap: 1em;
 }
 
 .box {
-    min-height: 100px;
-    min-width: 100px;
+    min-height: 150px;
+    min-width: 150px;
     background-image: radial-gradient(transparent, lightsteelblue);
     color: royalblue;
-    font-size: xxx-large;
+    font-size: 8em;
     outline: none;
     border: none;
     border-radius: 10px;
@@ -67,16 +89,12 @@
     background-image: radial-gradient(transparent, lightsteelblue);
 }
 
-#game-button {
-    padding: 1em;
-}
-
 #reset-button {
     padding: .5em;
     background-image: linear-gradient(to bottom, lightslategray, transparent, lightslategray);
     color: black;
     font-weight: bold;
-    font-size: x-large;
+    font-size: xx-large;
     outline: none;
     border: none;
     border-radius: 10px;
